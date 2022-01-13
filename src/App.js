@@ -1,8 +1,10 @@
 import React from 'react'
-import { ExampleComponent } from './components/ExampleComponent'
+import { Navbar } from './components/navbar/Navbar'
 
 export const App = () => {
   return (
-    <ExampleComponent>Code example</ExampleComponent>
+    <>
+      <Navbar dark />
+    </>
   )
 }

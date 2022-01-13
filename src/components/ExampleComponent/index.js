@@ -2,10 +2,10 @@ import React from 'react'
 
 import { StyledDiv } from './style'
 
-export const ExampleComponent = ({ children }) => {
+export const ExampleComponent = ({ children, textColor }) => {
   return (
     <StyledDiv>
-      {children}
+      <p className={textColor}>{children}</p>
     </StyledDiv>
   )
 }
